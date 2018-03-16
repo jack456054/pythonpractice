@@ -2,7 +2,7 @@
 
 def family_tree(namelist):
     name = []
-    for _, ((dad, mom), child) in enumerate(namelist):
+    for ((dad, mom), child) in namelist:
         if not name:
             name.append([dad, mom])
             name.append([child])
