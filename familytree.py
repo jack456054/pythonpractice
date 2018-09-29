@@ -28,8 +28,7 @@ def family_tree(namelist):
                     if mom not in name[index]:
                         name[index].append(mom)
                     break
-
-        return name
+    return name
 
 
 if __name__ == '__main__':
